@@ -23,6 +23,18 @@ header{
     justify-content: space-between;
 }
 
+.header-logo{
+   animation: ease-in animation 1s;
+}
+
+@keyframes animation {
+    0% {transform: scale (0)
+    }
+    100% {
+        transform: scale (1)
+    }
+}
+
 .navbar-collapse{
     justify-content: flex-end;
 }
@@ -84,6 +96,10 @@ footer{
     grid-row-gap: 60px;
     justify-items: center;
     margin-top: 20px;
+}
+
+.fotos-fdp :hover{
+    transform: scale(1,07px);
 }
 
 /*que nos motiva*/
